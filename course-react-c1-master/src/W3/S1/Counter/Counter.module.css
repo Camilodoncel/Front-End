@@ -1,0 +1,13 @@
+.btnOperation, .btnSub{
+    color: white;
+    font-weight: bolder;
+    font-size: 1rem;
+    padding: 10px;
+    border: none;
+}
+.btnOperation{
+    background-color: crimson;
+}
+.btnSub{
+    background-color: blue;
+}
