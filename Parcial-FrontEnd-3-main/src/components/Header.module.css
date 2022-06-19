@@ -1,0 +1,17 @@
+.header {
+  background-color: #d4d4d4;
+  padding: 20px 40px;
+  color: #000000;
+}
+
+.title {
+  margin-bottom: 10px;
+  color: #000000;
+}
+
+.description {
+  background-color: #000000;
+  color: #ffffff;
+  padding: 3px 5px;
+  border-radius: 5px;
+}

@@ -1,0 +1,45 @@
+.product {
+  border: 0.5px solid #000000;
+  padding: 20px;
+  width: 33%;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 10px;
+  background-color: #ffffff;
+}
+
+.title {
+  text-align: center;
+}
+
+.spent {
+  background-color: rgb(255, 178, 178);
+  padding: 3px;
+  font-weight: lighter;
+  color: rgb(255, 0, 0);
+  border-radius: 3px;
+}
+
+.btn {
+  padding: 5px;
+  text-transform: uppercase;
+  background-color: #d4d4d4;
+  color: #000000;
+  border: solid 0.2px #000000;
+}
+
+.btn:hover {
+  cursor: pointer;
+}
+
+.disabled {
+  padding: 5px;
+  text-transform: uppercase;
+  cursor: not-allowed;
+  pointer-events: none;
+  border: inset;
+  background-color: #d4d4d4;
+  color: #7d7c7c;
+}
